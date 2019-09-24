@@ -1,0 +1,23 @@
+baseurl = "/"
+
+languageCode = "en-us"
+title = "Rob Nugen"
+theme = "purehugo"
+MetaDataFormat = "yaml"
+rssLimit = 70
+ignorefiles = [ "geocaching/notes" ]
+#disqusShortname = "keeppushingthelimits"
+copyright = "© 2019 Rob Nugen"
+[params]
+	author = "Rob Nugen"
+    twitter = "thunderrabbit"
+    github = "thunderrabbit"
+    facebook = "thunderrabbit"
+    linkedin = "robnugen"
+    description = "keep expanding"
+    hideShareOptions = true
+[permalinks]
+    journal = "/journal/:year/:month/:day/:title/"
+    blog = "/blog/:year/:month/:day/:title/"
+cleandestinationdir= true
+disablerss= true
